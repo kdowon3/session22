@@ -1,0 +1,105 @@
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #f0fff4;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.container {
+  background-color: white;
+  border-radius: 15px;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  width: 400px;
+  text-align: center;
+}
+
+header {
+  font-size: 2em;
+  font-weight: bold;
+  margin-bottom: 10px;
+  color: #2f855a; /* 초록색 텍스트 */
+}
+
+header h1 {
+  cursor: pointer;
+}
+
+header p {
+  font-size: 0.7em;
+  color: #48bb78; /* 밝은 초록색 텍스트 */
+}
+
+nav ol {
+  list-style: none;
+  padding: 0;
+}
+
+nav li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #e6fffa;
+  padding: 10px;
+  margin: 5px 0;
+  border-radius: 5px;
+  transition: background-color 0.3s;
+}
+
+nav li:hover {
+  background-color: #b2f5ea;
+}
+
+nav button {
+  background: none;
+  border: none;
+  color: #e53e3e; /* 삭제 버튼 색상 */
+  cursor: pointer;
+  font-size: 1em;
+}
+
+nav button:hover {
+  color: #c53030; /* 삭제 버튼 호버 색상 */
+}
+
+input[type="text"], textarea {
+  width: calc(100% - 20px);
+  padding: 10px;
+  margin: 5px 0;
+  border: 1px solid #c6f6d5;
+  border-radius: 5px;
+}
+
+button[type="button"] {
+  background-color: #38a169;
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+button[type="button"]:hover {
+  background-color: #2f855a;
+}
+
+article {
+  text-align: left;
+  margin-top: 20px;
+}
+
+article h2 {
+  font-size: 1.5em;
+  border-bottom: 2px solid #38a169;
+  padding-bottom: 5px;
+  color: #2f855a;
+}
+
+article p {
+  font-size: 1em;
+  color: #4a5568;
+}
